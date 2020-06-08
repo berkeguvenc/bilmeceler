@@ -1,0 +1,72 @@
+[
+    {
+        "kat_adi": "Genel Fıkralar",
+        "kat_id": 1,
+        "kat_top": 684
+    },
+    {
+        "kat_adi": "Karadeniz Fıkraları",
+        "kat_id": 2,
+        "kat_top": 369
+    },
+    {
+        "kat_adi": "Nasrettin Hoca Fıkraları",
+        "kat_id": 3,
+        "kat_top": 238
+    },
+    {
+        "kat_adi": "Okul Fıkraları",
+        "kat_id": 4,
+        "kat_top": 283
+    },
+    {
+        "kat_adi": "Temel Fıkraları",
+        "kat_id": 5,
+        "kat_top": 495
+    },
+    {
+        "kat_adi": "Kayserili Fıkraları",
+        "kat_id": 6,
+        "kat_top": 109
+    },
+    {
+        "kat_adi": "Deli Fıkraları",
+        "kat_id": 7,
+        "kat_top": 122
+    },
+    {
+        "kat_adi": "İran Fıkraları",
+        "kat_id": 8,
+        "kat_top": 69
+    },
+    {
+        "kat_adi": "Erzurum Fıkraları",
+        "kat_id": 9,
+        "kat_top": 100
+    },
+    {
+        "kat_adi": "Asker Fıkraları",
+        "kat_id": 10,
+        "kat_top": 73
+    },
+    {
+        "kat_adi": "Doktor Fıkraları",
+        "kat_id": 11,
+        "kat_top": 84
+    },
+    {
+        "kat_adi": "Politik Fıkralar",
+        "kat_id": 12,
+        "kat_top": 83
+    },
+    {
+        "kat_adi": "Spor Fıkraları",
+        "kat_id": 13,
+        "kat_top": 45
+    },
+    {
+        "kat_adi": "Sarışın Fıkraları",
+        "kat_id": 14,
+        "kat_top": 37
+    }
+]

@@ -1,0 +1,13 @@
+<ion-view view-title="Fıkralar">
+	<ion-content>
+
+
+		<a class="item item-thumbnail-left" ng-repeat="(baslik,veri) in jsonveri" href="#/tab/fikralar/{{baslik+1}}">
+			<img src="img\fikralar\kategori\{{veri.kat_id}}.jpg">
+			<h2>{{veri.kat_adi}}</h2>
+			<p>Fıkra sayısı: {{veri.kat_top}}</p>
+		</a>
+
+
+	</ion-content>
+</ion-view>

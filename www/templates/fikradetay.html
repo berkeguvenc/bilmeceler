@@ -1,0 +1,14 @@
+<ion-view view-title="{{kategoriveri[kategori-1].kat_adi}}">
+  <ion-content class="padding">
+	<h2 style="color:red; text-decoration:none;">{{kategoriveri[kategori-1].kat_adi}}</h2>
+    <div class="list card">
+
+      <a class="item" ng-repeat="(baslik,veri) in jsonveri" ng-if="veri.fikra_katid==kategori" ng-click="anil(veri.fikra_id)">
+        <i class="icon ion-android-happy"></i> <b>{{veri.fikra_adi}}</b>
+      </a>
+
+    </div>
+
+
+  </ion-content>
+</ion-view>

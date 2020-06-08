@@ -1,0 +1,34 @@
+<ion-modal-view>
+  <ion-header-bar>
+    <h1 class="title">{{kategoriveri[kategori-1].kat_adi}}</h1>
+    <div class="buttons">
+      <button class="button close-circle" ng-click="closeLogin()"><i class="icon ion-close-round"></i></button>
+    </div>
+  </ion-header-bar>
+ <ion-content scroll="false">
+  <ion-slides  options="options" slider="data.slider">
+    <ion-slide-page>
+   <div class="list card">
+
+  <div class="item" align="center">
+  <h2><b>{{jsonveri[berke-1].fikra_adi}}</b></h2>
+   
+  </div>
+
+  <div class="item item-body" align="center">
+    <img class="full-image" src="{{jsonveri[kategori].fikra[berke].resim_url}}">
+    <p ng-bind-html='jsonveri[berke-1].fikra_icerik' />
+
+<button class="button button-assertive" ng-click="closeLogin()"> Kapat </button>  
+    
+  </div>
+
+
+
+
+</div>
+    </ion-slide-page>
+
+  </ion-slides>
+</ion-content>
+</ion-modal-view>

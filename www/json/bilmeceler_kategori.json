@@ -1,0 +1,47 @@
+[
+    {
+        "kat_adi": "Klasik Bilmeceler",
+        "kat_id": 1,
+        "kat_top": "460"
+    },
+    {
+        "kat_adi": "Komik Bilmeceler",
+        "kat_id": 2,
+        "kat_top": "164"
+    },
+    {
+        "kat_adi": "Manili Bilmeceler",
+        "kat_id": 3,
+        "kat_top": "30"
+    },
+    {
+        "kat_adi": "Saçma Bilmeceler",
+        "kat_id": 4,
+        "kat_top": "273"
+    },
+    {
+        "kat_adi": "Zeka Mantık Soruları",
+        "kat_id": 5,
+        "kat_top": "105"
+    },
+    {
+        "kat_adi": "Zor Bilmeceler",
+        "kat_id": 6,
+        "kat_top": "121"
+    },
+    {
+        "kat_adi": "Çocuk Bilmeceleri",
+        "kat_id": 7,
+        "kat_top": "81"
+    },
+    {
+        "kat_adi": "İlginç Bilmeceler",
+        "kat_id": 8,
+        "kat_top": "226"
+    },
+    {
+        "kat_adi": "Şaşırtıcı Bilmeceler",
+        "kat_id": 9,
+        "kat_top": "102"
+    }
+]

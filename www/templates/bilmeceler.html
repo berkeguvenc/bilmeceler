@@ -1,0 +1,10 @@
+<ion-view view-title="Bilmeceler">
+  <ion-content>
+		<a class="item item-thumbnail-left" ng-repeat="(baslik,veri) in jsonveri" href="#/tab/bilmeceler/{{baslik+1}}">
+			<img src="img\bilmeceler\kategori\{{veri.kat_id}}.jpg">
+			<h2>{{veri.kat_adi}}</h2>
+			<p>Biilmece sayısı: {{veri.kat_top}}</p>
+		</a>
+
+  </ion-content>
+</ion-view>

@@ -1,0 +1,35 @@
+<ion-modal-view>
+    <ion-header-bar>
+      <h1 class="title">Sonuç</h1>
+      <div class="buttons">
+        <button class="button close-circle" ng-click="closeLogin()"><i class="icon ion-close-round"></i></button>
+      </div>
+    </ion-header-bar>
+   <ion-content scroll="false">
+    <ion-slides  options="options" slider="data.slider">
+      <ion-slide-page>
+     <div class="list card">
+  
+    <div class="item" align="center">
+      <h2><b>{{jsonveri[kategori].bilmece[berke].baslik}}</b></h2>
+     
+    </div>
+  
+    <div class="item item-body" align="center">
+      <img class="full-image" src="{{jsonveri[kategori].fikra[berke].resim_url}}">
+      <p>
+      Yanıt: {{jsonveri[kategori].bilmece[berke].cevap}}
+      </p>
+      
+    </div>
+  
+  
+  
+  
+  </div>
+      </ion-slide-page>
+  
+    </ion-slides>
+  </ion-content>
+  </ion-modal-view>
+  
